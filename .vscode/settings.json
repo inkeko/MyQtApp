@@ -1,0 +1,12 @@
+{
+  "cmake.generator": "MinGW Makefiles",
+  "cmake.configureSettings": {
+    "CMAKE_PREFIX_PATH": "C:/Qt/6.10.0/mingw_64"
+  },
+  "cmake.cmakePath": "C:/Qt/Tools/CMake_64/bin/cmake.exe",
+  "cmake.buildDirectory": "${workspaceFolder}/build",
+  "cmake.buildToolArgs": [],
+  "cmake.environment": {
+    "PATH": "C:/Qt/Tools/mingw1310_64/bin;${env:PATH}"
+  }
+}
