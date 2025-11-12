@@ -1,0 +1,33 @@
+# Build és futtatási mappák
+build/
+dist/
+
+# Fordítási maradványok
+*.exe
+*.o
+*.obj
+*.ilk
+*.pdb
+*.dll
+*.lib
+*.a
+
+# CMake fájlok
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+compile_commands.json
+
+# Qt generált fájlok
+moc_*.cpp
+ui_*.h
+qrc_*.cpp
+
+# VS Code beállítások (csak ha nem akarod megosztani)
+ .vscode/
+
+# Egyéb
+*.user
+*.log
+*.tmp

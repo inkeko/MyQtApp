@@ -5,21 +5,14 @@
       "name": "Launch Qt GUI App",
       "type": "cppdbg",
       "request": "launch",
-      "program": "${workspaceFolder}/build/MyQtApp.exe",
+      "program": "${workspaceFolder}/dist/MyQtApp.exe",
       "args": [],
       "stopAtEntry": false,
-      "cwd": "${workspaceFolder}",
-      "environment": [],
+      "cwd": "${workspaceFolder}/dist",
       "externalConsole": true,
       "MIMode": "gdb",
       "miDebuggerPath": "C:/Qt/Tools/mingw1310_64/bin/gdb.exe",
-      "setupCommands": [
-        {
-          "description": "Enable pretty-printing for gdb",
-          "text": "-enable-pretty-printing",
-          "ignoreFailures": true
-        }
-      ]
+      "preLaunchTask": "Deploy Qt App"
     }
   ]
 }
